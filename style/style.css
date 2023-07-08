@@ -1,0 +1,68 @@
+ body::before {
+     content: "";
+     background: url(/static/bg.jpg);
+     overflow: hidden;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100%;
+     width: 100%;
+     z-index: -1;
+     position: absolute;
+     opacity: 0.6;
+
+
+ }
+ nav{
+    background-color: rgb(34, 28, 28);
+    width: 100%;
+    
+ }
+
+ ul {
+
+     display: flex;
+     flex-direction: row;
+
+ }
+
+ li {
+     list-style: none;
+     padding: 13px 15px;
+
+ }
+
+ li a {
+     text-decoration: none;
+     color: rgb(250, 245, 245);
+     font-size: large;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+
+ h2{
+    display: flex;
+    justify-content: center;
+   font-weight: bold;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ input, textarea{
+    display: block;
+    padding: 5px;
+    margin: 5px auto;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 10px;
+ }
+ .btn{
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    width: 130px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ .btn:hover{
+    background-color: rgb(58, 58, 63);
+    color: aliceblue;
+ }
